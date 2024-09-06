@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+
 
 BACKGROUND_COLOR = '#1E1E1E'
 GRID_COLOR = '#2E2E2E'

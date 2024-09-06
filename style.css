@@ -1,0 +1,105 @@
+/* Force dark theme regardless of Streamlit's settings */
+.stApp {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Ensure the Plotly chart doesn't stretch beyond its container */
+.stPlotlyChart {
+    width: 100%;
+    background-color: #2E2E2E;
+}
+
+/* Header styles */
+.stApp > header {
+    background-color: transparent;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/* General text styles */
+.stMarkdown, .stText {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+
+/* Button styles */
+.stButton > button {
+    color: #FFFFFF;
+    background-color: #2E2E2E;
+    border: 1px solid #3E3E3E;
+}
+
+/* Selectbox styles */
+.stSelectbox > div > div > div {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+}
+
+/* Sidebar styles */
+[data-testid="stSidebar"] {
+    background-color: #1E1E1E;
+}
+
+.sidebar-title {
+    color: #CCCCCC;
+    font-size: 18px;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+/* Sidebar radio button styles */
+[data-testid="stSidebar"] .stRadio label,
+[data-testid="stSidebar"] .stRadio [data-testid="stMarkdownContainer"] p {
+    color: #CCCCCC !important;
+}
+
+/* Expander styles */
+.streamlit-expanderHeader {
+    background-color: #1E1E1E !important;
+    color: #CCCCCC !important;
+    font-weight: 600 !important;
+}
+
+.streamlit-expanderContent {
+    background-color: #1E1E1E !important;
+    border: none !important;
+}
+
+.big-title-slider {
+    font-size:18px !important;
+    font-weight: bold;
+    margin-bottom: -15px; 
+}
+
+.big-math-label {
+    font-family: 'Computer Modern', Arial ;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+/* Force text color for all elements */
+* {
+    color: #CCCCCC !important;
+}
